@@ -6,7 +6,5 @@
   "homepage": "https://magichour.ai/mcp",
   "repository": "https://github.com/magichourhq/magic-hour-grok-plugin",
   "license": "MIT",
-  "keywords": ["image-generation", "video-generation", "ai-video", "mcp"],
-  "skills": "./skills",
-  "mcpServers": "./mcp.json"
+  "keywords": ["magic-hour", "ai-video", "ai-image", "mcp"]
 }
