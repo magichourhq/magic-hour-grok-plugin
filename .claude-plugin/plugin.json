@@ -1,0 +1,10 @@
+{
+  "name": "magic-hour",
+  "version": "0.1.0",
+  "description": "Create and edit images and video with Magic Hour from your terminal agent: text-to-image, image-to-video, face swap, lip sync, talking photo, and more.",
+  "author": { "name": "Magic Hour", "email": "support@magichour.ai" },
+  "homepage": "https://magichour.ai/mcp",
+  "repository": "https://github.com/magichourhq/magic-hour-grok-plugin",
+  "license": "MIT",
+  "keywords": ["magic-hour", "magichour", "ai-video", "ai-image"]
+}
