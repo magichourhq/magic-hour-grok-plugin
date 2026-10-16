@@ -5,6 +5,6 @@
   "author": { "name": "Magic Hour", "email": "support@magichour.ai" },
   "homepage": "https://magichour.ai/mcp",
   "repository": "https://github.com/magichourhq/magic-hour-grok-plugin",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "keywords": ["magic-hour", "magichour", "ai-video", "ai-image"]
 }
