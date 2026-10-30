@@ -26,6 +26,7 @@ print(response)
 
 Notes
 - Create an API key in the Magic Hour Developer Hub and keep it in an environment variable.
-- If the request is rejected as unauthorized, try `"Bearer <key>"` as the `authorization` value. (Untested: confirm which form xAI sends.)
+- Pass the raw Magic Hour API key as `authorization`. The [official xAI cookbook](https://github.com/xai-org/xai-cookbook/blob/002788b1fe838295a5e0b6adedcc8c216f807926/examples/database-over-mcp/README.md#how-it-works) documents that xAI sends it in a Bearer Authorization header. Do not add a second `Bearer` prefix.
+- This example has not been executed against the xAI API. Source-confirmed header behavior is separate from actual authentication, generation and output verification. A read-only workflow through the xAI API still uses billed xAI inference.
 - Creation tools are asynchronous. The model should call the matching `wait_for_*_project` tool until the project finishes.
 - Generations spend Magic Hour credits.
